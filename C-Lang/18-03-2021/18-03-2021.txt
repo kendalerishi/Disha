@@ -1,0 +1,67 @@
+1. Loop Demo
+
+#include<stdio.h> 
+ 
+int main ()
+{
+  /* local variable Initialization */  int n,times=5;;
+    
+   /* for loops execution */   for( n = 1; n <= times; n = n + 1 )
+   {
+      printf("Loop number: %d\n", n);
+   }
+ 
+   return 0;
+}
+
+
+2. start - declare counter - condition - execute statement - increment - stop
+
+3. do
+{
+   statement(s);
+
+}while( condition );
+
+
+4. start - exec statemetnst - condition - stop
+
+5.
+#include<stdio.h>
+ 
+int main ()
+{
+   /* local variable Initialization */   int n = 1,times=5;
+
+   /* do loops execution */   do
+   {
+       printf("C do while loops: %d\n", n);
+       n = n + 1;
+   }while( n <= times );
+ 
+   return 0;
+}
+
+6. While (condition)
+{
+   statement(s);
+   Incrementation;
+}
+
+7. start - cond - exec state - stop
+
+8. 
+#include<stdio.h>
+ 
+int main ()
+{
+   /* local variable Initialization */   int n = 1,times=5;
+
+   /* while loops execution */   while( n <= times )
+   {
+      printf("C while loops: %d\n", n);
+      n++;
+   }
+ 
+   return 0;
+}
